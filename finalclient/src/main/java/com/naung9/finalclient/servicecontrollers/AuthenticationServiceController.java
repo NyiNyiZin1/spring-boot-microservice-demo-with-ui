@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
-@FeignClient("eureka-client1")
+@FeignClient("eureka-client1") // Application Name
 public interface AuthenticationServiceController {
     @PostMapping(value = "/login", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
     User login(@RequestParam("email")String email, @RequestParam("password")String password);
@@ -21,7 +21,7 @@ public interface AuthenticationServiceController {
     @GetMapping("/user/{userId}")
     User getUser(@PathVariable int userId);
 
-    @GetMapping(value = "/user/delete/{userId}", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/user/delete/{userId}")
     String deleteUser(@PathVariable int userId);
 
     @GetMapping("/role/all")

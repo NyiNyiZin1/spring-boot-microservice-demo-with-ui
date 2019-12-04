@@ -62,6 +62,7 @@ public class MainController {
         return "redirect:/login";
     }
 
+    // Convert Field "roles" coming from client to Role Object Collection/List
     @InitBinder
     public void objConverter(WebDataBinder dataBinder) throws Exception{
         dataBinder.registerCustomEditor(List.class, "roles", new CustomCollectionEditor(List.class){

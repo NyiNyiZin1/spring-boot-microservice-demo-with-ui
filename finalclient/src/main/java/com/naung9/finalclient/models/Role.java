@@ -24,6 +24,7 @@ public class Role implements Serializable {
         this.name = name;
     }
 
+    // To Represent Object As A String
     @Override
     public String toString() {
         return "Role{" +
@@ -32,6 +33,7 @@ public class Role implements Serializable {
                 '}';
     }
 
+    // For Checking If Two Objects Are Identical
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
