@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+<form th:action="@{/register}" th:object="${user}" method="post">
+    <input type="hidden" th:field="*{id}">
+    <input placeholder="User Name" type="text" th:field="*{name}">
+    <input placeholder="Email" type="email" th:field="*{email}">
+    <input placeholder="Password" type="hidden" th:field="*{password}">
+    <select multiple name="roles">
+        <option th:each="role : ${roles}" th:selected="${user.roles.contains(role)}" th:value="${role.getId()}" th:text="${role.getName()}"></option>
+    </select>
+    <input type="submit" value="Save">
+</form>
+
+</body>
+</html>
