@@ -1,9 +1,10 @@
-package com.naung9.eurekaclient1.repositories;
+package com.nnz.eurekaclient1.repositories;
 
-import com.naung9.eurekaclient1.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.nnz.eurekaclient1.entities.User;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,7 +1,8 @@
-package com.naung9.finalclient.configs;
+package com.nnz.finalclient.configs;
 
-import com.naung9.finalclient.models.User;
-import com.naung9.finalclient.servicecontrollers.AuthenticationServiceController;
+import com.nnz.finalclient.models.User;
+import com.nnz.finalclient.servicecontrollers.AuthenticationServiceController;
+
 import feign.FeignException;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

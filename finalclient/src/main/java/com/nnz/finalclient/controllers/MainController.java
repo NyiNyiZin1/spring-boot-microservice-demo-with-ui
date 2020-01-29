@@ -1,8 +1,9 @@
-package com.naung9.finalclient.controllers;
+package com.nnz.finalclient.controllers;
 
-import com.naung9.finalclient.models.Role;
-import com.naung9.finalclient.models.User;
-import com.naung9.finalclient.servicecontrollers.AuthenticationServiceController;
+import com.nnz.finalclient.models.Role;
+import com.nnz.finalclient.models.User;
+import com.nnz.finalclient.servicecontrollers.AuthenticationServiceController;
+
 import org.springframework.beans.propertyeditors.CustomCollectionEditor;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;

@@ -1,9 +1,10 @@
-package com.naung9.eurekaclient1.controllers;
+package com.nnz.eurekaclient1.controllers;
 
-import com.naung9.eurekaclient1.entities.Role;
-import com.naung9.eurekaclient1.entities.User;
-import com.naung9.eurekaclient1.repositories.RoleRepo;
-import com.naung9.eurekaclient1.repositories.UserRepo;
+import com.nnz.eurekaclient1.entities.Role;
+import com.nnz.eurekaclient1.entities.User;
+import com.nnz.eurekaclient1.repositories.RoleRepo;
+import com.nnz.eurekaclient1.repositories.UserRepo;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.security.crypto.password.PasswordEncoder;

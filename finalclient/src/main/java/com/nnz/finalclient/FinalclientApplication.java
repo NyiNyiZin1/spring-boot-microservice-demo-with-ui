@@ -1,4 +1,4 @@
-package com.naung9.finalclient;
+package com.nnz.finalclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

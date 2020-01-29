@@ -1,8 +1,9 @@
-package com.naung9.eurekaclient1.repositories;
+package com.nnz.eurekaclient1.repositories;
 
-import com.naung9.eurekaclient1.entities.Role;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import com.nnz.eurekaclient1.entities.Role;
 
 import java.util.List;
 

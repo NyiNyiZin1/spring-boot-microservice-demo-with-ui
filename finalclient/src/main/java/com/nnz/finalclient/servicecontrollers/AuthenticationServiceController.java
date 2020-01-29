@@ -1,13 +1,15 @@
-package com.naung9.finalclient.servicecontrollers;
+package com.nnz.finalclient.servicecontrollers;
 
-import com.naung9.finalclient.models.Role;
-import com.naung9.finalclient.models.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.nnz.finalclient.models.Role;
+import com.nnz.finalclient.models.User;
+
 import java.util.List;
 
 @FeignClient("eureka-client1") // Application Name

@@ -1,4 +1,4 @@
-package com.naung9.eurekaclient1.entities;
+package com.nnz.eurekaclient1.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,12 +1,13 @@
-package com.naung9.finalclient.configs;
+package com.nnz.finalclient.configs;
 
-import com.naung9.finalclient.servicecontrollers.AuthenticationServiceController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+import com.nnz.finalclient.servicecontrollers.AuthenticationServiceController;
 
 @EnableWebSecurity
 @Configuration

@@ -1,4 +1,4 @@
-package com.naung9.finalclient.models;
+package com.nnz.finalclient.models;
 
 import java.io.Serializable;
 import java.util.Objects;
